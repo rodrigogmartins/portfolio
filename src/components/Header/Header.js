@@ -4,12 +4,18 @@ import './Header.css'
 export default class Header extends Component {
   render() {
     return (
-      <div className="header">
-        <span className="link"><a href="#test">Home</a></span>
-        <span className="link"><a href="#test">About</a></span>
-        <span className="link"><a href="#test">Skills</a></span>
-        <span className="link"><a href="#test">Projects</a></span>
-        <span className="link"><a href="#test">Contact</a></span>
+      <div>
+        <nav className="menu">
+          <label htmlFor="btn-hamburger">&#9776;</label>
+          <input type="checkbox" id="btn-hamburger"></input>
+          <ul>
+            <li><a className="link" href="#home">Home</a></li>
+            <li><a className="link" href="#about">About</a></li>
+            <li><a className="link" href="#test">Skills</a></li>
+            <li><a className="link" href="#test">Projects</a></li>
+            <li><a className="link" href="#test">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     )
   }
