@@ -2,6 +2,7 @@
 
 :root {
   --bg-primary: #212121;
+  --bg-secondary: #383838;
   --color-primary: #fff;
 }
 
@@ -9,4 +10,5 @@
   background-color: var(--bg-primary);
   color: var(--color-primary);
   font-family: 'Roboto Mono', monospace;
+  overflow-x: hidden;
 }
