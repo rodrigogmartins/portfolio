@@ -24,5 +24,12 @@
     margin-bottom: 0;
 
     position: relative;
-    top: 150px;
+    top: 20vh;
+}
+
+@media(min-width: 800px) {
+    .banner-img {
+        background-position: top;
+        background-attachment: fixed;
+    }
 }
